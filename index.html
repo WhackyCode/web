@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Ware</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #5A5A5A, #504F4F);
+            font-family: "Roboto Condensed";
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+        .topbar {
+            background: linear-gradient(to bottom, #333, #5A5A5A);
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        .title {
+            font-size: 24px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .infoblock {
+            background: linear-gradient(to bottom, #464646, #505050);
+            width: 600px;
+            height: 180px;
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .infoblock h2 {
+            margin: 0;
+            color: gray;
+        }
+        .infoblock p {
+            margin: 12 0;
+        }
+        .block {
+            background: linear-gradient(to bottom, #464646, #505050);
+            width: 200px;
+            height: 190px;
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .block h2 {
+            margin: 0;
+            color: gray;
+        }
+        .block p {
+            margin: 12 0;
+        }
+        .blockscript {
+            background: linear-gradient(to bottom, #464646, #505050);
+            width: 200px;
+            height: 140px;
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .blockscript h2 {
+            margin: 0;
+            color: gray;
+        }
+        .blockscript p {
+            margin: 12 0;
+        }
+        .scriptholder {
+            background: linear-gradient(to bottom, #343434, #494949);
+            width: 600px;
+            height: 150px;
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .scriptholder h2 {
+            margin: 0;
+            color: gray;
+        }
+        .scriptholder p {
+            margin: 12 0;
+            color: white;
+        }
+        .bottom-links {
+            background: linear-gradient(to bottom, #504F4F, #393939);
+            color: #fff;
+            padding-top: 60px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        .bottom-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .custom-button-tag {
+            background-color: #565656;
+            font-family: "Roboto Condensed";
+            font-weight: bold;
+            border: none;
+            color: white;
+            padding: 8px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .custom-button-tag:active::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(0);
+            transform-origin: center;
+            animation: ripple 0.3s ease-out;
+            pointer-events: none;
+        }
+        .custom-button {
+            background-color: #565656;
+            font-family: "Roboto Condensed";
+            font-weight: bold;
+            border: none;
+            color: white;
+            padding: 10px 17px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .custom-button:active::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(0);
+            transform-origin: center;
+            animation: ripple 0.4s ease-out;
+            pointer-events: none;
+        }
+         @keyframes ripple {
+            to {
+            transform: scale(4);
+            opacity: 0;
+            }
+         }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+      Dark Ware X - Roblox Script Hub
+    </div>
+     <div class="title">
+       About Dark Ware X
+     </div>
+     <div class="container">
+       <div class="infoblock">
+         <h2>Dark Ware X is an Roblox script hub, which came out about 9 months ago. The project had alot of name changes, 0n1 Hub and Project Omega as example. It has a good looking and clean GUI. Dark Ware X currently supports 19 games! After all it works totally fine on both PC and mobile.</h2>
+       </div>
+       </div>
+       </div>
+    <div class="title">
+        Dark Ware X Team
+    </div>
+    <div class="container">
+        <div class="block">
+          <h2>whackydev#0</h2>
+          <p>Whacky Dev is the owner and the head scripter of Dark Ware.</p>
+           <button class="custom-button-tag" onclick="copyTagToClipboard1()">Copy Username</button>
+        </div>
+        <div class="block">
+            <h2>cursedcodex#0</h2>
+            <p>Cursed Codex is the second owner of Dark Ware, and Tester.</p>
+             <button class="custom-button-tag" onclick="copyTagToClipboard2()">Copy Username</button>
+        </div>
+        <div class="block">
+            <h2>.arkirius#0</h2>
+            <p>FrxRius_ is the third owner of Dark Ware, and Web Developer.</p>
+             <button class="custom-button-tag" onclick="copyTagToClipboard3()">Copy Username</button>
+        </div>
+        <div class="block">
+          <h2>synofficial01#0</h2>
+          <p>Syn is the fourth owner of Dark Ware, and member Support.</p>
+           <button class="custom-button-tag" onclick="copyTagToClipboard4()">Copy Username</button>
+        </div>
+    </div>
+    <div class="title">
+        Dark Ware X
+    </div>
+     <div class="container">
+       <div class="blockscript">
+         <h2>Performance</h2>
+         <p>Dark Ware X runs fast and smoothly on any device!</p>
+       </div>
+       <div class="blockscript">
+         <h2>Games</h2>
+         <p>Dark Ware X supports alot of games on the platform!</p>
+       </div>
+       <div class="blockscript">
+         <h2>User-friendly</h2>
+         <p>Dark Ware X their functions are easy to understand!</p>
+       </div>
+     </div>
+      <div class="title">
+        Get The Script
+      </div>
+      <div class="container">
+        <div class="scriptholder">
+          <h2>Dark Ware X Loader</h2>
+          <p>loadstring(game:HttpGet("https://raw.githubusercontent.com/WhackyCode/D...</p>
+          <button class="custom-button" onclick="copyScriptToClipboard()">Copy Script</button>
+        </div>
+      </div>
+    <div class="bottom-links">
+        <a href="https://discord.gg/UnjnNVx6Tp">Discord</a>
+        <a href="https://youtube.com/@darkware_x">YouTube</a>
+        <a href="https://github.com/WhackyCode">GitHub</a>
+        <a href="https://www.paypal.me/CerbialeUIDeveloper">PayPal</a>
+    </div>
+</body>
+<script>
+  function copyScriptToClipboard() {
+    const textToCopy = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/WhackyCode/DarkWare/main/loader.lua"))()';
+
+    const textarea = document.createElement('textarea');
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  }
+  function copyTagToClipboard1() {
+    const textToCopy = 'whackydev#0';
+  
+    const textarea = document.createElement('textarea');
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  }
+  function copyTagToClipboard2() {
+    const textToCopy = 'cursedcodex#0';
+  
+    const textarea = document.createElement('textarea');
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  }
+  function copyTagToClipboard3() {
+    const textToCopy = '.arkirius#0';
+  
+    const textarea = document.createElement('textarea');
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  }
+  function copyTagToClipboard4() {
+    const textToCopy = 'synofficial01#0';
+  
+    const textarea = document.createElement('textarea');
+    textarea.value = textToCopy;
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  }
+  </script>
+</script>
+</html>
